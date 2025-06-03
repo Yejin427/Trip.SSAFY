@@ -204,15 +204,6 @@
    npm run dev
    ```
 
-   - frontend/ 폴더에 .env 파일 추가
-   - 아래의 내용 작성
-
-   ```bash
-   VITE_TOUR_API_KEY=1hD0aGdKIUKBE7L59PbF2naCEixas3eMV3Ba9eid3WjUulQ68Bd6E6Ld9hvRA%2Fe2zdjFSrq2Zv3D%2BnHDnnOOCQ%3D%3D
-   VITE_KAKAO_JAVASCRIPT_API_KEY=5080b66a272284ba409aa468d26e7a2a
-   VITE_KAKAO_REST_API_KEY=2275dd32b67a1fe42ae5af4ed7187a5f
-   ```
-
 3. 백엔드 실행
 
    - ssafy_trip_final_kwondaehyun_choyejin/TripSSAFY 로 이동
@@ -222,15 +213,6 @@
    ```bash
    ./gradlew bootRun
    ```
-
-4. DB에 데이터 넣기
-   - MySQL에 포트 번호 3306으로 설정
-   - User: ssafy / Password: ssafy로 유저 설정
-   - ssafy_trip_final_kwondaehyun_choyejin/TripSSAFY/src/main/resources 로 이동
-   - default.data.sql을 MySQL에서 실행 (스키마 + 더미 데이터)
-   - (선택 사항) dummy_user_10000.sql 실행
-5. 브라우저 실행
-   - 브라우저에서 [http://localhost:5173/](http://localhost:5173/) 로 이동
 
 ## 📂 폴더 구조
 
